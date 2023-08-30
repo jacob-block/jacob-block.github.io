@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Jacob L. Block"
-  avatar           : "files/profile.png"
+  avatar           : "profile.png"
   bio              : "ECE PhD Student at UT Austin"
   location         : "Austin, TX"
   employer         :
