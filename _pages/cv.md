@@ -22,7 +22,7 @@ Experience
   * Projects:
     * Supervised probabilistic PCA for data with heteroscedastic noise
     * Subspace tracking along Grassmanian geodesics
-  * Supervisor: Dr. Jeffrey A. Fessler
+  * Supervisor: Jeff Fessler
 * Summer 2022: Audio ML Intern 
   * MathWorks Audio Toolbox Team
   * Developed featured examples for speech command recognition and automated machine health monitoring
