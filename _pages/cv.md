@@ -32,7 +32,7 @@ Experience
   * Devised an automated beem steering algorithm for the Flash X-Ray particle accelerator
   * Supervisor: Will Stem
   
-<!-- Skills
+Skills
 ======
 * Skill 1
 * Skill 2
@@ -61,4 +61,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams -->
+* Currently signed in to 41 different slack teams
