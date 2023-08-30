@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jacob L. Block"
 title_separator          : "-"
 name                     : &name "Jacob L. Block"
-description              : &description "personal description"
+description              : &description "ECE PhD Student at UT Austin"
 url                      : https://jacob-block.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jacob-block/jacob-block.github.io"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               :
 facebook:
   username               :
   app_id                 :
