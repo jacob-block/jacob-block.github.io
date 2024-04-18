@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S.E in Electrical Engineering, University of Michigan, 2023
-* M.S.E in Electrical and Computer Engineering, The University of Texas at Austin, 2025 (expected)
-* Ph.D in Electrical and Computer Engineering, The University of Texas at Austin, 2028 (expected)
+* Ph.D. in Electrical and Computer Engineering, UT Austin 2028 (expected)
+* M.S.E in Electrical and Computer Engineering, UT Austin 2025 (expected)
+* B.S.E in Electrical Engineering, University of Michigan 2023
 
 Honors
 ======
