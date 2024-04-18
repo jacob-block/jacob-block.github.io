@@ -21,6 +21,7 @@ Honors
 * Basdall Gardner Memorial Graduate Engineering Fellowship, UT Austin 2023
 * R.K. Brown Memorial Award, UMich 2023
 * EECS Outstanding Achievement Award, UMich 2023
+
 Experience
 ======
 * 2022-2023: Research Assistant
