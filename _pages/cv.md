@@ -15,6 +15,12 @@ Education
 * M.S.E in Electrical and Computer Engineering, The University of Texas at Austin, 2025 (expected)
 * Ph.D in Electrical and Computer Engineering, The University of Texas at Austin, 2028 (expected)
 
+Honors
+======
+* NSF GRFP Honorable Mention, 2024
+* Basdall Gardner Memorial Graduate Engineering Fellowship, UT Austin 2023
+* R.K. Brown Memorial Award, UMich 2023
+* EECS Outstanding Achievement Award, UMich 2023
 Experience
 ======
 * 2022-2023: Research Assistant
