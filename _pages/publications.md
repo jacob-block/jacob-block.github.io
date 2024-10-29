@@ -12,10 +12,8 @@ Preprints
 {**Meta-Learning Adaptable Foundation Models**-}
 
 {% assign name = "Jon" -%}
-{{ name -}} <br>
-{% unless level == "1" %}
-Great job getting past the first level!
-{%- endunless %}
+<span style="line-height: 1;">{{ name }}</span><br>
+<span style="line-height: 1;">Great job getting past the first level!</span>
 
 ***JLB**, Sundararajan Srinivasan, Liam Collins, Aryan Mokhtari, Sanjay Shakkottai*
 
