@@ -13,7 +13,7 @@ Education
 ======
 * Ph.D. in Electrical and Computer Engineering, UT Austin 2028 (expected)
 * M.S.E in Electrical and Computer Engineering, UT Austin 2025 (expected)
-* B.S.E in Electrical Engineering, University of Michigan 2023
+* B.S.E in Electrical Engineering, Minor in Mathematics, University of Michigan 2023
 
 Honors
 ======
