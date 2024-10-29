@@ -8,16 +8,9 @@ author_profile: true
 Preprints
 ======
 
-**Meta-Learning Adaptable Foundation Models**-
-{**Meta-Learning Adaptable Foundation Models**-}
-
-{% assign name = "Jon" -%}
-<span style="line-height: 1;">{{ name }}</span><br>
-<span style="line-height: 1;">Great job getting past the first level!</span>
-
-***JLB**, Sundararajan Srinivasan, Liam Collins, Aryan Mokhtari, Sanjay Shakkottai*
-
-arXiv preprint
+**Meta-Learning Adaptable Foundation Models**
+<span style="line-height: 1;">***JLB**, Sundararajan Srinivasan, Liam Collins, Aryan Mokhtari, Sanjay Shakkottai*</span><br>
+<span style="line-height: 1;">arXiv preprint</span>
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
