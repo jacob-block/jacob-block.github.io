@@ -9,7 +9,9 @@ Preprints
 ------
 
 **Meta-Learning Adaptable Foundation Models**
-**JLB**,Sundararajan Srinivasan, Liam Collins, Aryan Mokhtari, Sanjay Shakkottai
+
+***JLB**,Sundararajan Srinivasan, Liam Collins, Aryan Mokhtari, Sanjay Shakkottai*
+
 arXiv preprint
 
 {% if author.googlescholar %}
