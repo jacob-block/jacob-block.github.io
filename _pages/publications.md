@@ -5,9 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-Preprints
-======
-
 **Machine Unlearning under Overparameterization**<br>
 <span style="line-height: 1;">***JLB**, Aryan Mokhtari, Sanjay Shakkottai*</span><br>
 <span style="line-height: 1;">preprint</span><br>
@@ -19,7 +16,7 @@ Preprints
 <span style="line-height: 1;"> <a href="https://github.com/jacob-block/jacob-block.github.io/raw/master/files/Meta_Learning_FM_block.pdf" download>[Download PDF]</a>
 
 {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+You can also find my articles on <u><a href="{{ author.googlescholar }}">my Google Scholar profile</a>.</u>
 {% endif %}
 
 <!--{% include base_path %}
