@@ -16,11 +16,7 @@ author_profile: true
 <span style="line-height: 1;"> <a href="https://github.com/jacob-block/jacob-block.github.io/raw/master/files/Meta_Learning_FM_block.pdf" download>[Download PDF]</a>
 
 
-{{ page.author }}
-{{ author.googlescholar }}
-{{ page.author.googlescholar }}
-
-{% if author.googlescholar %}
+{% if site.author.googlescholar %}
 You can also find my articles on <u><a href="{{ author.googlescholar }}">my Google Scholar profile</a>.</u>
 {% endif %}
 
