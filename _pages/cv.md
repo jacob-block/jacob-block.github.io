@@ -24,19 +24,18 @@ Honors
 
 Experience
 ======
-* 2022-2023: Research Assistant
-  * Fessler Research Group
+* Student Researcher at Google Research (2025)
+  * Supervisor: Mehryar Mohri
+* Research Assistant at the University of Michigan (2022-23)
   * Projects:
     * Supervised probabilistic PCA for data with heteroscedastic noise
     * Subspace tracking along Grassmanian geodesics
   * Supervisor: Jeff Fessler
-* Summer 2022: Audio ML Intern 
-  * MathWorks Audio Toolbox Team
+* Audio AI Intern at MathWorks (2022) 
   * Developed featured examples for speech command recognition and automated machine health monitoring
   * Supervisors: Jihad Ibrahim, Brian Hemmat
 
-* Summer 2021: Applied Physics Intern
-  * Lawrence Livermore National Laboratory Beam Physics Group
+* Applied Physics Intern at Lawrence Livermore National Laboratory (2021-22)
   * Devised an automated beem steering algorithm for the Flash X-Ray particle accelerator
   * Supervisor: Will Stem
   
