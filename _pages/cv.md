@@ -11,16 +11,16 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Electrical and Computer Engineering, UT Austin 2028 (expected)
-* M.S.E in Electrical and Computer Engineering, UT Austin 2025 (expected)
-* B.S.E in Electrical Engineering, Minor in Mathematics, University of Michigan 2023
+* Ph.D. in Electrical and Computer Engineering, The University of Texas at Austin (2028) (expected)
+* M.S.E in Electrical and Computer Engineering, The University of Texas at Austin (2025) (expected)
+* B.S.E in Electrical Engineering, Minor in Mathematics, University of Michigan (2023)
 
 Honors
 ======
-* NSF GRFP Honorable Mention, 2024
-* Basdall Gardner Memorial Graduate Engineering Fellowship, UT Austin 2023
-* R.K. Brown Memorial Award, UMich 2023
-* EECS Outstanding Achievement Award, UMich 2023
+* NSF GRFP Honorable Mention (2024)
+* Basdall Gardner Memorial Graduate Engineering Fellowship, The University of Texas at Austin (2023)
+* R.K. Brown Memorial Award, University of Michigan (2023)
+* EECS Outstanding Achievement Award, University of Michigan (2023)
 
 Experience
 ======
