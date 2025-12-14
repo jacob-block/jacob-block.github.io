@@ -16,6 +16,6 @@ I received my B.S.E in Electrical Engineering from the University of Michigan in
 
 ## Experience
 
-- Google Research (2025) with Mehryar Mohri
+- Google Research (2025)
 - MathWorks (2022)
 - Lawrence Livermore National Lab (2021)
