@@ -14,7 +14,7 @@ I received my B.S.E in Electrical Engineering from the University of Michigan in
 
 **Email:** jblock at utexas dot edu
 
-## Internships
+## Experience
 
 - Google Research (2025) with Mehryar Mohri
 - MathWorks (2022)
