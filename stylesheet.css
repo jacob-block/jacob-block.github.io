@@ -98,8 +98,9 @@ h2 {
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #222;
 }
 
 .name {
@@ -146,6 +147,17 @@ span.highlight {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
+}
+
+.pub-table td p {
+  line-height: 1.6;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.pub-table td {
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 .footer {
