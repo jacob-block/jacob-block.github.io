@@ -135,8 +135,16 @@ span.highlight {
 }
 
 .colored-box {
-    color: black;
-    padding: 20px;
-    display: inline-block;
-    border-radius: 10px;
+  color: black;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.footer {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 0.9em;
+  color: #aaa;
+  border-top: 1px solid #eee;
+  margin-top: 40px;
 }
