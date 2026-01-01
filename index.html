@@ -13,123 +13,119 @@
   </head>
 
   <body>
-    <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Jacob Block
-                </p>
-                <p> I am a Ph.D. Student in the Electrical and Computer Engineering Department at the University of Texas at Austin co-advised by Drs. <a href="https://sites.utexas.edu/mokhtari/"> Aryan Mokhtari </a> and <a href="https://sites.google.com/view/sanjay-shakkottai/home"> Sanjay Shakkottai </a>.
-                  My current research focuses on efficient model fine-tuning and unlearning.
-                
-                <p> I received my B.S.E in Electrical Engineering from the University of Michigan in 2023, where I was fortunate to work with Dr. <a href="https://web.eecs.umich.edu/~fessler/"> Jeffrey Fessler </a>.
-
-                <p> <strong>Email:</strong> jblock at utexas dot edu
-
-                </p>
-                <p style="text-align:center">
-                  <a href="data/resume.pdf">Resume</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=OdAWU7oAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://x.com/JLBl0ck">Twitter</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/jacob-block">Github</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="images/headshot.png"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%; transform: scale(1.0);" alt="profile photo" src="images/headshot.png" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Experience</h2>
-                <p>
-                  <ul>
-                    <li>Google Research, Learning Theory Team (2025)</li>
-                    <li>MathWorks, Audio Toolbox Team (2022)</li>
-                    <li>Lawrence Livermore National Laboratory, Beam Physics Group (2021)</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-          
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          
-          <style>
-            .pub-table tr[style*="background-color: #ffffd0"]:hover {
-              background-color: transparent !important;
-              box-shadow: none !important;
-            }
+    <div class="container">
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr style="padding:0px">
+          <td style="padding:2.5%;width:63%;vertical-align:middle">
+            <p class="name" style="text-align: center;">
+              Jacob Block
+            </p>
+            <p> I am a Ph.D. Student in the Electrical and Computer Engineering Department at the University of Texas at Austin co-advised by Drs. <a href="https://sites.utexas.edu/mokhtari/"> Aryan Mokhtari </a> and <a href="https://sites.google.com/view/sanjay-shakkottai/home"> Sanjay Shakkottai </a>.
+              My current research focuses on efficient model fine-tuning and unlearning.
             
-            .pub-table tr:not([style*="background-color: #ffffd0"]):hover {
-              box-shadow: 0 0 20px rgba(0,0,0,0.05) !important;
-            }
-          </style>
-          
-          <div id="publications" style="padding-top:20px;">
+            <p> I received my B.S.E in Electrical Engineering from the University of Michigan in 2023, where I was fortunate to work with Dr. <a href="https://web.eecs.umich.edu/~fessler/"> Jeffrey Fessler </a>.
 
-            <table class="pub-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-              <tbody>
-                <tr>
-                  <td style="padding:20px;width:25%;vertical-align:middle">
-                    <img src='images/overparameterized_unlearning.png' style="width:100%;max-width:100%;">
-                  </td>
-                  <td style="padding:20px;width:75%;vertical-align:middle">
-                    <papertitle>Machine Unlearning under Overparameterization</papertitle>
-                    <br>
-                    <strong>JLB</strong>, Aryan Mokhtari, and Sanjay Shakkottai
-                    <br>
-                    <em>NeurIPS</em>, 2025
-                    <br>
-                    <a href="https://jacob-block.github.io/data/overparameterized_unlearning.pdf">PDF</a> &nbsp;
-                    <a href="https://arxiv.org/abs/2505.22601">ArXiv</a> &nbsp;
-                    <a href="https://github.com/jacob-block/overparameterized-unlearning">Code</a>
-                    <p>We study machine unlearning in the overparameterized regime, where many different models can interpolate the training data. We propose a new unlearning definition based on the minimum-complexity interpolator over the retained data,
-                      and introduce MinNorm-OG, an algorithm enforcing this principle using only model gradients at the original solution.
-                      We provide theoretical guarantees for several model classes and demonstrate that MinNorm-OG outperforms existing baselines in practice.
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="padding:20px;width:25%;vertical-align:middle;">
-                    <img src='images/peft_ml.png' style="width:100%;max-width:100%;">
-                  </td>
-                  <td style="padding:20px;width:75%;vertical-align:middle;">
-                    <papertitle>Provable Meta-Learning with Low-Rank Adaptations</papertitle>
-                    <br>
-                    <strong>JLB</strong>, Sundararajan Srinivasan, Liam Collins, Aryan Mokhtari, and Sanjay Shakkottai
-                    <br>
-                    <em>NeurIPS</em>, 2025
-                    <br>
-                    <a href="https://jacob-block.github.io/data/peft_ml.pdf">PDF</a> &nbsp;
-                    <a href="https://arxiv.org/abs/2410.22264">ArXiv</a> &nbsp;
-                    <a href="https://github.com/jacob-block/peft-ml">Code</a>
-                    <p>Foundation models learn rich representations, but require further training for adaptation to downstream tasks.
-                      We introduce a generic PEFT-based meta-learning framework that prepares models to adapt efficiently to unseen tasks,
-                      and show that for linear models with LoRA, standard retraining is provably suboptimal while our method achieves strict performance guarantees.
-                      Experiments on synthetic, vision, and language tasks confirm significant gains over conventional retraining.
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </td>
-      </tr>
-    </tbody></table>
-    
-    <div class="footer">
-      <p>&copy; 2025 Jacob Block. Template adapted from <a href="https://github.com/jonbarron/website">Jon Barron</a> and <a href="https://liturout.github.io/">Litu Rout</a>.</p>
+            <p> <strong>Email:</strong> jblock at utexas dot edu
+
+            </p>
+            <p style="text-align:center">
+              <a href="data/resume.pdf">Resume</a> &nbsp;/&nbsp;
+              <a href="https://scholar.google.com/citations?user=OdAWU7oAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
+              <a href="https://x.com/JLBl0ck">Twitter</a> &nbsp;/&nbsp;
+              <a href="https://github.com/jacob-block">Github</a>
+            </p>
+          </td>
+          <td style="padding:2.5%;width:37%;max-width:37%">
+            <a href="images/headshot.png"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%; transform: scale(1.0);" alt="profile photo" src="images/headshot.png" class="hoverZoomLink"></a>
+          </td>
+        </tr>
+      </tbody></table>
+      
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:16px;width:100%;vertical-align:middle">
+            <h2>Experience</h2>
+            <p>
+              <ul>
+                <li>Google Research, Learning Theory Team (2025)</li>
+                <li>MathWorks, Audio Toolbox Team (2022)</li>
+                <li>Lawrence Livermore National Laboratory, Beam Physics Group (2021)</li>
+              </ul>
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
+      
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:16px;width:100%;vertical-align:middle">
+            <h2>Research</h2>
+          </td>
+        </tr>
+      </tbody></table>
+      
+      <style>
+        .pub-table tr[style*="background-color: #ffffd0"]:hover {
+          background-color: transparent !important;
+          box-shadow: none !important;
+        }
+        
+        .pub-table tr:not([style*="background-color: #ffffd0"]):hover {
+          box-shadow: 0 0 20px rgba(0,0,0,0.05) !important;
+        }
+      </style>
+      
+      <div id="publications" style="padding-top:20px;">
+        <table class="pub-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src='images/overparameterized_unlearning.png' style="width:100%;max-width:100%;">
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Machine Unlearning under Overparameterization</papertitle>
+                <br>
+                <strong>JLB</strong>, Aryan Mokhtari, and Sanjay Shakkottai
+                <br>
+                <em>NeurIPS</em>, 2025
+                <br>
+                <a href="https://jacob-block.github.io/data/overparameterized_unlearning.pdf">PDF</a> &nbsp;
+                <a href="https://arxiv.org/abs/2505.22601">ArXiv</a> &nbsp;
+                <a href="https://github.com/jacob-block/overparameterized-unlearning">Code</a>
+                <p>We study machine unlearning in the overparameterized regime, where many different models can interpolate the training data. We propose a new unlearning definition based on the minimum-complexity interpolator over the retained data,
+                  and introduce MinNorm-OG, an algorithm enforcing this principle using only model gradients at the original solution.
+                  We provide theoretical guarantees for several model classes and demonstrate that MinNorm-OG outperforms existing baselines in practice.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle;">
+                <img src='images/peft_ml.png' style="width:100%;max-width:100%;">
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle;">
+                <papertitle>Provable Meta-Learning with Low-Rank Adaptations</papertitle>
+                <br>
+                <strong>JLB</strong>, Sundararajan Srinivasan, Liam Collins, Aryan Mokhtari, and Sanjay Shakkottai
+                <br>
+                <em>NeurIPS</em>, 2025
+                <br>
+                <a href="https://jacob-block.github.io/data/peft_ml.pdf">PDF</a> &nbsp;
+                <a href="https://arxiv.org/abs/2410.22264">ArXiv</a> &nbsp;
+                <a href="https://github.com/jacob-block/peft-ml">Code</a>
+                <p>Foundation models learn rich representations, but require further training for adaptation to downstream tasks.
+                  We introduce a generic PEFT-based meta-learning framework that prepares models to adapt efficiently to unseen tasks,
+                  and show that for linear models with LoRA, standard retraining is provably suboptimal while our method achieves strict performance guarantees.
+                  Experiments on synthetic, vision, and language tasks confirm significant gains over conventional retraining.
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="footer">
+        <p>&copy; 2025 Jacob Block. Template adapted from <a href="https://github.com/jonbarron/website">Jon Barron</a> and <a href="https://liturout.github.io/">Litu Rout</a>.</p>
+      </div>
     </div>
   </body>
 </html>
