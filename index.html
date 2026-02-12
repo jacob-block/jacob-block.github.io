@@ -88,17 +88,17 @@
                   <papertitle>Temper-Then-Tilt: Principled Unlearning Through Tempering and Classifier Guidance</papertitle>
                 </a>
                 <br>
-                <strong>JLB</strong>, Mehryar Mohri, Aryan Mokhtari, and Sanjay Shakkottai
+                <strong>JLB</strong>, Mehryar Mohri, Aryan Mokhtari, and Sanjay Shakkottai (authors listed alphabetically)
                 <br>
                 <em>Preprint</em>, 2026
                 <br>
                 <a href="https://jacob-block.github.io/data/T3_unlearning.pdf">PDF</a> &nbsp;
                 <a href="https://arxiv.org/abs/2602.10217">ArXiv</a> &nbsp;
                 <p>We study machine unlearning for generative models by framing the task as a density ratio estimation to a target distribution representing the retained information.
-                  While classifier guidance is a standard approach and can succeed in general, we show it can fail to unlearn with finite samples when the forget set represents a concentrated data distribution.
-                  To address this, we introduce Temper-Then-Tilt Unlearning (T3-Unlearning), which (i) tempers the frozen the base distribution to flatten high-confidence spikes, and (ii) tilts this tempered distribution using a lightweight classifier trained to distinguish retain from forget samples.
+                  While classifier guidance is a standard approach for density ratio estimation, we show it can fail to unlearn with finite samples when the forget set represents a concentrated data distribution.
+                  To address this, we introduce Temper-Then-Tilt Unlearning (T3-Unlearning), which tempers the frozen the base distribution to flatten high-confidence spikes before tilting with a lightweight classifier trained to distinguish retain from forget samples.
                   Theoretical analysis shows finite-sample guarantees linking the classifier risk to unlearning error, proving that tempering is necessary to unlearn for concentrated distributions.
-                  Experiments on the TOFU benchmark show that T3-Unlearning improves forget quality and generative utility over existing baselines, while training only a fraction of the parameters with a minimal runtime.
+                  Experiments on the TOFU benchmark show that T3-Unlearning improves over existing baselines, while training only a fraction of the parameters with a minimal runtime.
                 </p>
               </td>
             </tr>
