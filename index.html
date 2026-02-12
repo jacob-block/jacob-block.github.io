@@ -96,9 +96,9 @@
                 <a href="https://arxiv.org/abs/2602.10217">ArXiv</a> &nbsp;
                 <p>We study machine unlearning for generative models by framing the task as a density ratio estimation to a target distribution representing the retained information.
                   While classifier guidance is a standard approach and can succeed in general, we show it can fail to unlearn with finite samples when the forget set represents a concentrated data distribution.
-                  To address this, we introduce Temper-Then-Tilt Unlearning (T3-Unlearning), which freezes the base model and applies a two-step inference procedure: (i) tempering the base distribution to flatten high-confidence spikes, and (ii) tilting the tempered distribution using a lightweight classifier trained to distinguish retain from forget samples.
-                  Theoretical analysis provides finite-sample guarantees linking the classifier risk to unlearning error, proving that tempering is necessary to unlearn for concentrated distributions.
-                  Empirical evaluations on the TOFU benchmark show that T3-Unlearning improves forget quality and generative utility over existing baselines, while training only a fraction of the parameters with a minimal runtime.
+                  To address this, we introduce Temper-Then-Tilt Unlearning (T3-Unlearning), which (i) tempers the frozen the base distribution to flatten high-confidence spikes, and (ii) tilts this tempered distribution using a lightweight classifier trained to distinguish retain from forget samples.
+                  Theoretical analysis shows finite-sample guarantees linking the classifier risk to unlearning error, proving that tempering is necessary to unlearn for concentrated distributions.
+                  Experiments on the TOFU benchmark show that T3-Unlearning improves forget quality and generative utility over existing baselines, while training only a fraction of the parameters with a minimal runtime.
                 </p>
               </td>
             </tr>
