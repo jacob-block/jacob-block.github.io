@@ -94,11 +94,11 @@
                 <br>
                 <a href="https://jacob-block.github.io/data/T3_unlearning.pdf">PDF</a> &nbsp;
                 <a href="https://arxiv.org/abs/2602.10217">ArXiv</a> &nbsp;
-                <p>We frame the task of machine unlearning for generative models as density ratio estimation to a target distribution representing only the retained information.
-                  While classifier guidance is a standard approach, we show it can fail to unlearn with finite samples when the forget set represents a concentrated data distribution.
-                  We introduce Temper-Then-Tilt Unlearning (T3-Unlearning), which tempers the frozen the base distribution to flatten high-confidence spikes before tilting with a lightweight classifier trained to distinguish retain from forget samples.
+                <p>We frame machine unlearning for generative models as density ratio estimation to a target distribution representing only the retained information.
+                  While classifier guidance is a standard approach, we show it fails to unlearn with finite samples when the forget set represents a concentrated data distribution.
+                  We propose Temper-Then-Tilt Unlearning (T3-Unlearning), which tempers the frozen the base distribution to flatten high-confidence spikes before tilting with a lightweight classifier trained to distinguish retain from forget samples.
                   Theoretical analysis shows finite-sample guarantees linking the classifier risk to unlearning error, proving the necessity of base model tempering.
-                  Experiments on the TOFU benchmark show that T3-Unlearning improves over existing baselines, while training only a fraction of the parameters with a minimal runtime.
+                  Experiments on the TOFU benchmark show that T3-Unlearning improves over existing baselines while training a fraction of the parameters with a minimal runtime.
                 </p>
               </td>
             </tr>
