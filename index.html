@@ -10,6 +10,16 @@
     <link rel="icon" type="image/png" href="images/ut_seal.png">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     
+    <style>
+      .pub-table tr[style*="background-color: #ffffd0"]:hover {
+        background-color: transparent !important;
+        box-shadow: none !important;
+      }
+      
+      .pub-table tr:not([style*="background-color: #ffffd0"]):hover {
+        box-shadow: 0 0 20px rgba(0,0,0,0.05) !important;
+      }
+    </style>
   </head>
 
   <body>
@@ -45,14 +55,12 @@
           <tr>
           <td style="padding:8px 16px 16px 16px;width:100%;vertical-align:middle">
             <h2>Experience</h2>
-            <p>
-              <ul>
-                <li>Hudson River Trading (2026)</li>
-                <li>Google Research, Learning Theory Team (2025)</li>
-                <li>MathWorks, Audio Toolbox Team (2022)</li>
-                <li>Lawrence Livermore National Laboratory, Beam Physics Group (2021)</li>
-              </ul>
-            </p>
+            <ul>
+              <li>Hudson River Trading (2026)</li>
+              <li>Google Research, Learning Theory Team (2025)</li>
+              <li>MathWorks, Audio Toolbox Team (2022)</li>
+              <li>Lawrence Livermore National Laboratory, Beam Physics Group (2021)</li>
+            </ul>
           </td>
         </tr>
       </tbody></table>
@@ -65,23 +73,13 @@
         </tr>
       </tbody></table>
       
-      <style>
-        .pub-table tr[style*="background-color: #ffffd0"]:hover {
-          background-color: transparent !important;
-          box-shadow: none !important;
-        }
-        
-        .pub-table tr:not([style*="background-color: #ffffd0"]):hover {
-          box-shadow: 0 0 20px rgba(0,0,0,0.05) !important;
-        }
-      </style>
       
       <div id="publications" style="padding-top:20px;">
         <table class="pub-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tbody>
             <tr>
-              <td style="padding:20px;width:30%;vertical-align:top;text-align:center;">
-                <img src='https://jacob-block.github.io/images/T3_unlearning.png' style="width:100%;max-width:100%;">
+              <td style="padding:20px;width:30%;vertical-align:middle;text-align:center;">
+                <img src='https://jacob-block.github.io/images/T3_unlearning.png' style="width:100%;max-width:100%;" alt="Temper-Then-Tilt Unlearning Diagram">
               </td>
               <td style="padding:20px;width:70%;vertical-align:top">
                 <a href="https://jacob-block.github.io/data/T3_unlearning.pdf">
@@ -103,8 +101,8 @@
               </td>
             </tr>
             <tr>
-              <td style="padding:20px;width:30%;vertical-align:top;text-align:center;">
-                <img src='images/overparameterized_unlearning.png' style="width:100%;max-width:100%;">
+              <td style="padding:20px;width:30%;vertical-align:middle;text-align:center;">
+                <img src='images/overparameterized_unlearning.png' style="width:100%;max-width:100%;" alt="Machine Unlearning under Overparameterization Diagram">
               </td>
               <td style="padding:20px;width:70%;vertical-align:top">
                 <a href="https://jacob-block.github.io/data/overparameterized_unlearning.pdf">
@@ -125,8 +123,8 @@
               </td>
             </tr>
             <tr>
-              <td style="padding:20px;width:30%;vertical-align:top;text-align:center;">
-                <img src='images/peft_ml.png' style="width:100%;max-width:100%;">
+              <td style="padding:20px;width:30%;vertical-align:middle;text-align:center;">
+                <img src='images/peft_ml.png' style="width:100%;max-width:100%;" alt="Meta-Learning with Low-Rank Adaptations Diagram">
               </td>
               <td style="padding:20px;width:70%;vertical-align:top">
                 <a href="https://jacob-block.github.io/data/peft_ml.pdf">
