@@ -74,6 +74,11 @@ a:hover {
   text-decoration: none;
 }
 
+a.paper-link:hover {
+  color: #222;
+  text-decoration: underline;
+}
+
 body,
 td,
 th,
