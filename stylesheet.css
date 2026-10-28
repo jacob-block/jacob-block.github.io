@@ -118,38 +118,6 @@ papertitle {
   font-size: 32px;
 }
 
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-
-.two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-span.highlight {
-  background-color: #ffffd0;
-}
-
-.colored-box {
-  color: black;
-  padding: 20px;
-  display: inline-block;
-  border-radius: 10px;
-}
-
 .container {
   width: 100%;
   max-width: 1000px;
@@ -166,6 +134,10 @@ span.highlight {
 .pub-table td {
   font-size: 14px;
   line-height: 1.6;
+}
+
+.pub-table tr:hover {
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
 }
 
 ul {

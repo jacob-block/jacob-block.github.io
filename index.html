@@ -9,17 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/ut_seal.png">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
-    <style>
-      .pub-table tr[style*="background-color: #ffffd0"]:hover {
-        background-color: transparent !important;
-        box-shadow: none !important;
-      }
-      
-      .pub-table tr:not([style*="background-color: #ffffd0"]):hover {
-        box-shadow: 0 0 20px rgba(0,0,0,0.05) !important;
-      }
-    </style>
   </head>
 
   <body>
@@ -32,11 +21,10 @@
             </p>
             <p> I am a Ph.D. Student in the Electrical and Computer Engineering Department at the University of Texas at Austin co-advised by Drs. <a href="https://sites.utexas.edu/mokhtari/"> Aryan Mokhtari </a> and <a href="https://sites.google.com/view/sanjay-shakkottai/home"> Sanjay Shakkottai </a>.
               My current research focuses on efficient model fine-tuning and unlearning.
-            
-            <p> I received my B.S.E in Electrical Engineering from the University of Michigan in 2023, where I was fortunate to work with Dr. <a href="https://web.eecs.umich.edu/~fessler/"> Jeffrey Fessler </a>.
-
+            </p>
+            <p> I received my B.S.E. in Electrical Engineering from the University of Michigan in 2023, where I was fortunate to work with Dr. <a href="https://web.eecs.umich.edu/~fessler/"> Jeffrey Fessler </a>.
+            </p>
             <p> <strong>Email:</strong> jblock at utexas dot edu
-
             </p>
             <p style="text-align:center">
               <a href="data/resume.pdf">Resume</a> &nbsp;/&nbsp;
@@ -47,7 +35,7 @@
             </p>
           </td>
           <td style="padding:2.5%;width:37%;max-width:37%">
-            <a href="images/headshot.png"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%; transform: scale(1.0);" alt="profile photo" src="images/headshot.png" class="hoverZoomLink"></a>
+            <a href="images/headshot.png"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%; transform: scale(1.0);" alt="profile photo" src="images/headshot.png"></a>
           </td>
         </tr>
       </tbody></table>
@@ -81,10 +69,10 @@
           <tbody>
             <tr>
               <td style="padding:20px;width:30%;vertical-align:middle;text-align:center;">
-                <img src='https://jacob-block.github.io/images/T3_unlearning.png' style="max-width:100%;" alt="Temper-Then-Tilt Unlearning Diagram">
+                <img src='images/T3_unlearning.png' style="max-width:100%;" alt="Temper-Then-Tilt Unlearning Diagram">
               </td>
               <td style="padding:20px;width:70%;vertical-align:top">
-                <a href="https://jacob-block.github.io/data/T3_unlearning.pdf" class="paper-link">
+                <a href="data/T3_unlearning.pdf" class="paper-link">
                   <papertitle>Temper-Then-Tilt: Principled Unlearning for Generative Models through Tempering and Classifier Guidance</papertitle>
                 </a>
                 <br>
@@ -92,12 +80,12 @@
                 <br>
                 <em>ICML</em>, 2026
                 <br>
-                <a href="https://jacob-block.github.io/data/T3_unlearning.pdf">PDF</a> &nbsp;
+                <a href="data/T3_unlearning.pdf">PDF</a> &nbsp;
                 <a href="https://arxiv.org/abs/2602.10217">ArXiv</a> &nbsp;
                 <a href="https://github.com/jacob-block/T3-Unlearning">Code</a>
                 <p>We frame machine unlearning for generative models as density ratio estimation to a target distribution representing only the retained information.
                   While classifier guidance is a standard approach, we show it fails to unlearn with finite samples when the forget set represents a concentrated data distribution.
-                  We propose Temper-Then-Tilt Unlearning (T3-Unlearning), which tempers the frozen the base distribution to flatten high-confidence spikes before tilting with a lightweight classifier trained to distinguish retain from forget samples.
+                  We propose Temper-Then-Tilt Unlearning (T3-Unlearning), which tempers the frozen base distribution to flatten high-confidence spikes before tilting with a lightweight classifier trained to distinguish retain from forget samples.
                   Theoretical analysis shows finite-sample guarantees linking the classifier risk to unlearning error, proving the necessity of base model tempering.
                   Experiments on the TOFU benchmark show that T3-Unlearning improves over existing baselines while training a fraction of the parameters with a minimal runtime.
                 </p>
@@ -108,7 +96,7 @@
                 <img src='images/overparameterized_unlearning.png' style="max-width:100%;" alt="Machine Unlearning under Overparameterization Diagram">
               </td>
               <td style="padding:20px;width:70%;vertical-align:top">
-                <a href="https://jacob-block.github.io/data/overparameterized_unlearning.pdf" class="paper-link">
+                <a href="data/overparameterized_unlearning.pdf" class="paper-link">
                   <papertitle>Machine Unlearning under Overparameterization</papertitle>
                 </a>
                 <br>
@@ -116,7 +104,7 @@
                 <br>
                 <em>NeurIPS</em>, 2025
                 <br>
-                <a href="https://jacob-block.github.io/data/overparameterized_unlearning.pdf">PDF</a> &nbsp;
+                <a href="data/overparameterized_unlearning.pdf">PDF</a> &nbsp;
                 <a href="https://arxiv.org/abs/2505.22601">ArXiv</a> &nbsp;
                 <a href="https://github.com/jacob-block/overparameterized-unlearning">Code</a>
                 <p>We study machine unlearning in the overparameterized regime, where many different models can interpolate the training data. We propose a new unlearning definition based on the minimum-complexity interpolator over the retained data,
@@ -130,7 +118,7 @@
                 <img src='images/peft_ml.png' style="max-width:100%;" alt="Meta-Learning with Low-Rank Adaptations Diagram">
               </td>
               <td style="padding:20px;width:70%;vertical-align:top">
-                <a href="https://jacob-block.github.io/data/peft_ml.pdf" class="paper-link">
+                <a href="data/peft_ml.pdf" class="paper-link">
                   <papertitle>Provable Meta-Learning with Low-Rank Adaptations</papertitle>
                 </a>
                 <br>
@@ -138,7 +126,7 @@
                 <br>
                 <em>NeurIPS</em>, 2025
                 <br>
-                <a href="https://jacob-block.github.io/data/peft_ml.pdf">PDF</a> &nbsp;
+                <a href="data/peft_ml.pdf">PDF</a> &nbsp;
                 <a href="https://arxiv.org/abs/2410.22264">ArXiv</a> &nbsp;
                 <a href="https://github.com/jacob-block/peft-ml">Code</a>
                 <p>Foundation models learn rich representations, but require further training for adaptation to downstream tasks.
@@ -160,7 +148,7 @@
         </ul>
       </div>
       <div class="footer">
-        <p>&copy; 2025 Jacob L. Block. Template adapted from <a href="https://github.com/jonbarron/website">Jon Barron</a> and <a href="https://liturout.github.io/">Litu Rout</a>.</p>
+        <p>&copy; 2026 Jacob L. Block. Template adapted from <a href="https://github.com/jonbarron/website">Jon Barron</a> and <a href="https://liturout.github.io/">Litu Rout</a>.</p>
       </div>
     </div>
   </body>
